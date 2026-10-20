@@ -1,0 +1,47 @@
+173:[Debug  : Preloader] Runtime invoke patched
+192:[Info   :TPM Mac Multi-Select] [MS] PlaceModeFieldPoll not started (user: no poll); native enter detour default OFF; primary = managed Harmony when Interop stub MethodInfo exists
+197:[Debug  :Il2CppInterop]     return System.Void
+202:[Debug  :Il2CppInterop]     return System.Void
+207:[Debug  :Il2CppInterop]     return System.Void
+212:[Debug  :Il2CppInterop]     return System.Void
+217:[Debug  :Il2CppInterop]     return System.Void
+222:[Debug  :Il2CppInterop]     return System.Void
+227:[Debug  :Il2CppInterop]     return System.Void
+232:[Debug  :Il2CppInterop]     return System.Void
+237:[Debug  :Il2CppInterop]     return System.Void
+242:[Debug  :Il2CppInterop]     return System.Void
+247:[Debug  :Il2CppInterop]     return System.Void
+252:[Debug  :Il2CppInterop]     return System.Void
+257:[Debug  :Il2CppInterop]     return System.Void
+260:[Debug  :Il2CppInterop]      return System.Void
+262:[Debug  :Il2CppInterop]     return System.Void
+267:[Debug  :Il2CppInterop]     return System.Void
+272:[Debug  :Il2CppInterop]     return System.Void
+277:[Debug  :Il2CppInterop]     return System.Void
+282:[Debug  :Il2CppInterop]     return System.Void
+287:[Debug  :Il2CppInterop]     return System.Void
+292:[Debug  :Il2CppInterop]     return System.Void
+297:[Debug  :Il2CppInterop]     return System.Void
+302:[Debug  :Il2CppInterop]     return System.Void
+307:[Debug  :Il2CppInterop]     return System.Void
+312:[Debug  :Il2CppInterop]     return System.Void
+317:[Debug  :Il2CppInterop]     return System.Void
+322:[Debug  :Il2CppInterop]     return System.Void
+327:[Debug  :Il2CppInterop]     return System.Void
+332:[Debug  :Il2CppInterop]     return System.Void
+337:[Debug  :Il2CppInterop]     return System.Void
+342:[Debug  :Il2CppInterop]     return System.Void
+347:[Debug  :Il2CppInterop]     return System.Void
+352:[Debug  :Il2CppInterop]     return System.Void
+357:[Debug  :Il2CppInterop]     return System.Void
+362:[Debug  :Il2CppInterop]     return System.Void
+367:[Debug  :Il2CppInterop]     return System.Void
+372:[Debug  :Il2CppInterop]     return System.Void
+377:[Debug  :Il2CppInterop]     return System.Void
+382:[Debug  :Il2CppInterop]     return System.Void
+390:[Info   :TPM Mac Multi-Select] [MS][hook] patched CursorModePlaceItem..ctor(IntPtr) (managed; Il2Cpp resolver detached)
+391:[Error  :TPM Mac Multi-Select] [MS][hook] managed Harmony OnBecomeActive FAILED: MissingMethodException: Method not found: 'Il2CppSystem.Type Il2CppSystem.Type.internal_from_handle(IntPtr)'.. Stub MethodInfo exists but patch threw — check Il2CppHarmonySupport / op_Equality; do NOT fall back to NativeDetour.
+392:[Info   :TPM Mac Multi-Select] [MS][hook] enter-like seen CursorModePlaceItem.OnBecomeActive fn=0x132B11C12 (inventory only; nativeDetourBanned=True; managedPatched=False)
+394:[Info   :TPM Mac Multi-Select] [MS][hook] N1a candidate CursorModePlaceItem.RestartItemPlaceState fn=0x132B0E8D1 (argc=0 instance; native default OFF; managed Harmony will use this name if stub MethodInfo appears)
+395:[Warning:TPM Mac Multi-Select] [MS][hook] SKIP NativeDetour CursorModePlaceItem.OnBecomeActive — banned (0.4.2/0.4.6/dobby FAIL). N1a RestartItemPlaceState also REFUSED after hang. Native enter remains default OFF.
+397:[Warning:TPM Mac Multi-Select] [MS][hook] no native enter hook on CursorModePlaceItem (default OFF). PLACEMENT_READY stays MISS until Interop stub MethodInfo exists for managed Harmony.

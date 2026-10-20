@@ -12,3 +12,6 @@ GameAssembly.*
 **/global-metadata.dat
 plugins/**/bin/
 plugins/**/obj/
+# Large generated interop/Dummy trees (keep logs/txt/md)
+docs/evidence/dummy-*/
+docs/evidence/il2cppinterop-out-*/

@@ -1,0 +1,32 @@
+	IL2CPP Metadata Declares its version as 31
+	Using actual IL2CPP Metadata version 31.1
+	Metadata version is pre-v38, using fixed 32-bit widths for all variable width indices
+	Reading image definitions...OK (7.703 ms)
+	Reading assembly definitions...OK (0.169 ms)
+	Reading type definitions...30970 OK (8.584 ms)
+	Reading interface offsets...OK (0.951 ms)
+	Reading vtable indices...OK (4.959 ms)
+	Reading method definitions...OK (95.457 ms)
+	Reading method parameter definitions...OK (52.39 ms)
+	Reading field definitions...OK (76.327 ms)
+	Reading default field values...OK (0.984 ms)
+	Reading default parameter values...OK (0.281 ms)
+	Reading property definitions...OK (8.225 ms)
+	Reading interface definitions...OK (0.738 ms)
+	Reading nested type definitions...OK (3.271 ms)
+	Reading event definitions...OK (0.342 ms)
+	Reading generic container definitions...OK (0.214 ms)
+	Reading generic parameter definitions...OK (0.373 ms)
+	Reading generic parameter constraint indices...OK (0.038 ms)
+	Reading referenced assemblies...OK (0.115 ms)
+	Reading string definitions...OK (0.718 ms)
+	Reading field references...OK (0.151 ms)
+	Reading Attribute data...OK (1.402 ms)
+	Building Lookup Table for field defaults...OK (11.627 ms)
+[Enrich] metadata v31.1 typeDefs=30970 methodDefs=170280
+[Enrich] dummy types indexed=31184
+[Enrich] typesTouched=9130 methodsAdded=29293 methodsSkipped=140982 typesMissingInDummy=154
+[Enrich][proof] TPS.Game.CursorModePlaceItem::OnBecomeActive attrs=Public, Virtual, HideBySig, VtableLayoutMask
+[Enrich][proof] TPS.Game.CursorModePlaceItem::OnBecomeInactive attrs=Public, Virtual, HideBySig, VtableLayoutMask
+[Enrich][proof] TPS.Game.CursorModePlaceItem::RestartItemPlaceState attrs=Private, HideBySig
+[Enrich] written=153 fail=0

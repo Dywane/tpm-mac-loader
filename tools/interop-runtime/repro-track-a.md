@@ -26,13 +26,23 @@ dotnet exec tools/interop-runtime/SanitizeDummy/bin/Release/net10.0/SanitizeDumm
 # 去掉 Burst $BurstDirectCall 字段；种子 System.* ValueType+m_value；Delegate/Action Invoke+Combine
 ```
 
+### 2b. Enrich Dummy methods（Empty → MethodDefs）
+```bash
+dotnet build tools/interop-runtime/EnrichDummyMethods -c Release
+dotnet exec tools/interop-runtime/EnrichDummyMethods/bin/Release/net10.0/EnrichDummyMethods.dll \
+  --input docs/evidence/dummy-x64-<stamp>-sanitized \
+  --output docs/evidence/dummy-x64-<stamp>-enriched \
+  --metadata "$GAME/TPM.app/Contents/Resources/Data/il2cpp_data/Metadata/global-metadata.dat"
+# CursorModePlaceItem.OnBecomeActive / RestartItemPlaceState 必须出现在 Dummy MethodDefs
+```
+
 ### 3. Il2CppInterop 生成（空 unity-libs）
 ```bash
 mkdir -p /tmp/empty-unity-libs
 lipo "$GAME/TPM.app/Contents/Frameworks/GameAssembly.dylib" -thin x86_64 -output /tmp/GameAssembly-x64-thin.dylib
 dotnet build tools/interop-runtime/GenerateIl2CppInterop -c Release
 dotnet exec tools/interop-runtime/GenerateIl2CppInterop/bin/Release/net10.0/GenerateIl2CppInterop.dll \
-  --input docs/evidence/dummy-x64-<stamp>-sanitized \
+  --input docs/evidence/dummy-x64-<stamp>-enriched \
   --output docs/evidence/il2cppinterop-out-sanitized \
   --unity-libs /tmp/empty-unity-libs \
   --game-assembly /tmp/GameAssembly-x64-thin.dylib \

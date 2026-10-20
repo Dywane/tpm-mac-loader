@@ -1,0 +1,9 @@
+178:[Info   :TPM Mac IL2CPP Host] [HOST] Runtime Kind=Interop Ready=True HostFacade.Ready=True — OK Il2CppSystem.String fields=18 methods=18 interop=/Users/weidu/Library/Application Support/Steam/steamapps/common/Two Point Museum/BepInEx/interop
+179:[Info   :TPM Mac IL2CPP Host] [HOST] Runtime Kind=Interop Ready=true
+192:[Info   :TPM Mac Multi-Select] [MS] PlaceModeFieldPoll not started (user: no poll); native enter detour default OFF; primary = managed Harmony when Interop stub MethodInfo exists
+391:[Error  :TPM Mac Multi-Select] [MS][hook] managed Harmony OnBecomeActive FAILED: TypeLoadException: Could not load type 'Il2CppSystem.Void' from assembly 'Il2CppInterop.Runtime, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null' due to value type mismatch.. Stub MethodInfo exists but patch threw — check Il2CppHarmonySupport / op_Equality; do NOT fall back to NativeDetour.
+392:[Info   :TPM Mac Multi-Select] [MS][hook] enter-like seen CursorModePlaceItem.OnBecomeActive fn=0x12DC8FC12 (inventory only; nativeDetourBanned=True; managedPatched=False)
+394:[Info   :TPM Mac Multi-Select] [MS][hook] N1a candidate CursorModePlaceItem.RestartItemPlaceState fn=0x12DC8C8D1 (argc=0 instance; native default OFF; managed Harmony will use this name if stub MethodInfo appears)
+395:[Warning:TPM Mac Multi-Select] [MS][hook] SKIP NativeDetour CursorModePlaceItem.OnBecomeActive — banned (0.4.2/0.4.6/dobby FAIL). N1a RestartItemPlaceState also REFUSED after hang. Native enter remains default OFF.
+396:[Warning:TPM Mac Multi-Select] [MS][hook] SKIP NativeDetour CursorModePlaceItem.RestartItemPlaceState — banned (0.4.2/0.4.6/dobby FAIL). N1a RestartItemPlaceState also REFUSED after hang. Native enter remains default OFF.
+397:[Warning:TPM Mac Multi-Select] [MS][hook] no native enter hook on CursorModePlaceItem (default OFF). PLACEMENT_READY stays MISS until Interop stub MethodInfo exists for managed Harmony.
