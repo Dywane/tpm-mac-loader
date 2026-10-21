@@ -96,3 +96,11 @@
 ## Task 5+（demo建造）
 
 hover / pickup / rotate / delete — 见计划 T5–8；**建议等 Task4 冷启动 PLACEMENT_READY 摘录后再开 Task5。**
+
+## Stub enrich for managed Harmony (2026-10-20 Asia/Shanghai)
+
+- **Root cause:** Empty Dummy + Sanitize stripAllMethods → no MethodInfo / NativeMethodInfoPtr on `CursorModePlaceItem`.
+- **Fix:** `tools/interop-runtime/EnrichDummyMethods` + Sanitize default keep methods; regenerates interop.
+- **Offline proof:** `docs/evidence/ithm-stub-enrich-reflection-20261020182534.txt`
+- **Deploy:** copy `docs/evidence/il2cppinterop-out-deduped-20261020182534/*.dll` → game `BepInEx/interop/`
+- **Cold-start MS expect:** AccessTools finds `OnBecomeActive` (no WAITING_FOR_STUB_METHODINFO for that name). Remaining: `op_Equality` / HarmonySupportGate.

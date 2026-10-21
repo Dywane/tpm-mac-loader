@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AsmResolver"><HintPath>/Users/weidu/Documents/Project/TPM-muti-select/loader/.cache/extract/BepInEx/core/AsmResolver.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="AsmResolver.DotNet"><HintPath>/Users/weidu/Documents/Project/TPM-muti-select/loader/.cache/extract/BepInEx/core/AsmResolver.DotNet.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="AsmResolver.PE"><HintPath>/Users/weidu/Documents/Project/TPM-muti-select/loader/.cache/extract/BepInEx/core/AsmResolver.PE.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="AsmResolver.PE.File"><HintPath>/Users/weidu/Documents/Project/TPM-muti-select/loader/.cache/extract/BepInEx/core/AsmResolver.PE.File.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="LibCpp2IL"><HintPath>/Users/weidu/Documents/Project/TPM-muti-select/loader/.cache/extract/BepInEx/core/LibCpp2IL.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="AssetRipper.Primitives"><HintPath>/Users/weidu/Documents/Project/TPM-muti-select/loader/.cache/extract/BepInEx/core/AssetRipper.Primitives.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>

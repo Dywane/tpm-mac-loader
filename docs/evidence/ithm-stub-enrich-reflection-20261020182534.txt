@@ -1,0 +1,38 @@
+ITHM managed stub enrich — offline reflection proof
+Date: 2026-10-20 Asia/Shanghai
+Stamp: 20261020182534
+Repo: tpm-mac-loader
+
+Root cause:
+  1) Cpp2IL Dummy used AsmResolverDllOutputFormatEmpty → TypeDefs without MethodDefs
+  2) SanitizeDummy historically stripAllMethods=true (kept only Delegate/Action seeds)
+  → Il2CppInterop emitted CursorModePlaceItem with declaredMethods≈0 / NativeMethodInfoPtr*=0
+  → MS AccessTools.Method(OnBecomeActive) SKIP / WAITING_FOR_STUB_METHODINFO
+
+Fix:
+  tools/interop-runtime/EnrichDummyMethods — inject zero-param method shells from global-metadata.dat
+  SanitizeDummy default stripAllMethods=false
+  Pipeline: Sanitize → Enrich → Generate (empty unity-libs) → Dedup → deploy BepInEx/interop
+
+Offline proof (AsmResolver on deployed TPS.Game.dll):
+  TPS.Game.CursorModePlaceItem
+    Methods=49 Fields=47
+    NativeMethodInfoPtr count=47
+    NativeMethodInfoPtr_OnBecomeActive_Public_Virtual_New_Void_0  PRESENT
+    NativeMethodInfoPtr_OnBecomeInactive_Public_Virtual_New_Void_0 PRESENT
+    NativeMethodInfoPtr_RestartItemPlaceState_Private_Void_0     PRESENT
+    Method OnBecomeActive() / OnBecomeInactive() / RestartItemPlaceState() PRESENT
+    .cctor ldstr "OnBecomeActive" → IL2CPP.GetIl2CppMethod → stsfld NativeMethodInfoPtr_…
+
+Before (live interop pre-enrich): Methods=2 (.cctor+.ctor) Fields=0 NativeMethodInfoPtr=0
+
+Artifacts:
+  docs/evidence/dummy-x64-enriched-20261020182534/
+  docs/evidence/il2cppinterop-out-enriched-20261020182534/
+  docs/evidence/il2cppinterop-out-deduped-20261020182534/
+  docs/evidence/enrich-dummy-methods-20261020182534.log
+  Game backup: BepInEx/interop.bak-pre-enrich-20261020182534
+
+Limits (v1):
+  Only parameterCount==0 non-getter methods (no binary → no full signatures).
+  Getters/setters/multi-param not enriched yet; enough for MS placement Harmony candidates.

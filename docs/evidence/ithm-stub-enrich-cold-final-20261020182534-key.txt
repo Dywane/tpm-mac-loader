@@ -1,0 +1,2 @@
+192:[Info   :TPM Mac Multi-Select] [MS] PlaceModeFieldPoll not started (user: no poll); native enter detour default OFF; primary = managed Harmony when Interop stub MethodInfo exists
+390:[Info   :TPM Mac Multi-Select] [MS][hook] patched CursorModePlaceItem..ctor(IntPtr) (managed; Il2Cpp resolver detached)

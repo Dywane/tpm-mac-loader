@@ -18,7 +18,7 @@ var input = GetOpt("--input");
 var output = GetOpt("--output");
 if (input == null || output == null) return Usage();
 var stripAllFields = Has("--strip-all-fields");
-var stripAllMethods = Has("--strip-all-methods") || true; // default on: avoid Pass90 StackImbalance
+var stripAllMethods = Has("--strip-all-methods"); // default OFF — EnrichDummyMethods needs method defs; Pass90 avoided via empty --unity-libs
 var seedPrimitives = Has("--seed-primitives") || true; // default on — required for Pass60
 
 Directory.CreateDirectory(output);
@@ -137,6 +137,19 @@ if (seedPrimitives)
         seeded++;
         Console.WriteLine($"[Sanitize] seeded {name} : ValueType + m_value:{elem().FullName} isValueType={td.IsValueType}");
     }
+
+    // System.Void must be a valuetype (no m_value) or Harmony hits Il2CppSystem.Void TypeLoad mismatch
+    {
+        var voidTd = Find("System.Void");
+        if (voidTd != null)
+        {
+            voidTd.Attributes = TypeAttributes.Public | TypeAttributes.SequentialLayout
+                                | TypeAttributes.Sealed | TypeAttributes.BeforeFieldInit;
+            voidTd.BaseType = valueType;
+            voidTd.Fields.Clear();
+            Console.WriteLine($"[Sanitize] seeded System.Void : ValueType (empty) isValueType={voidTd.IsValueType}");
+        }
+    }
 }
 
 
@@ -196,6 +209,30 @@ if (seedPrimitives)
 
     MakeDelegate("System.Action", Array.Empty<TypeSignature>(), corlib.Void);
     MakeDelegate("System.AsyncCallback", new[] { corlib.Object /* IAsyncResult approx */ }, corlib.Void);
+
+    // Harmony / Il2CppHarmonySupport needs Type.op_Equality for patch matching
+    {
+        var typeTd = Find("System.Type");
+        if (typeTd != null)
+        {
+            var typeSig = typeTd.ToTypeSignature();
+            foreach (var n in new[] { "op_Equality", "op_Inequality" })
+            {
+                foreach (var m in typeTd.Methods.Where(m => m.Name?.ToString() == n).ToList())
+                    typeTd.Methods.Remove(m);
+                typeTd.Methods.Add(new MethodDefinition(n,
+                    MethodAttributes.Public | MethodAttributes.Static | MethodAttributes.HideBySig | MethodAttributes.SpecialName,
+                    MethodSignature.CreateStatic(corlib.Boolean, typeSig, typeSig)));
+            }
+            foreach (var m in typeTd.Methods.Where(m => m.Name?.ToString() == "internal_from_handle").ToList())
+                typeTd.Methods.Remove(m);
+            typeTd.Methods.Add(new MethodDefinition("internal_from_handle",
+                MethodAttributes.Public | MethodAttributes.Static | MethodAttributes.HideBySig,
+                MethodSignature.CreateStatic(typeSig, corlib.IntPtr)));
+            Console.WriteLine("[Sanitize] seeded System.Type.op_Equality/op_Inequality/internal_from_handle");
+        }
+    }
+
 
     // Action`1 .. Action`4, Func`1 .. Func`5 — use generic params already on type if present
     for (int n = 1; n <= 4; n++)
@@ -286,6 +323,7 @@ foreach (var asm in assemblies)
                     var mn = m.Name?.ToString() ?? "";
                     bool keep = tNs == "System" && (
                         ((tName == "Delegate" || tName == "MulticastDelegate") && (mn == "Combine" || mn == "Remove"))
+                        || (tName == "Type" && (mn == "op_Equality" || mn == "op_Inequality" || mn == "internal_from_handle"))
                         || (mn == "Invoke" && (tName == "Action" || tName.StartsWith("Action`", StringComparison.Ordinal)
                             || tName.StartsWith("Func`", StringComparison.Ordinal) || tName == "AsyncCallback")));
                     if (keep) continue;

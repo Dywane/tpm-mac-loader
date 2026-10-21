@@ -1,0 +1,393 @@
+[Repair] __Generated.dll: objectUsagesFixed=2
+[Repair] ACL_Unity.dll: objectUsagesFixed=5
+[Vis] ACL_Unity.dll: orphanNestedVisibilityFixed=4
+[Dedup] ACL_Unity.dll: renamed=2
+[Repair] Backtrace.Unity.dll: objectUsagesFixed=5
+[Vis] Backtrace.Unity.dll: orphanNestedVisibilityFixed=6
+[Dedup] Backtrace.Unity.dll: renamed=5
+[Repair] BenSerialiser.dll: objectUsagesFixed=8
+[Vis] BenSerialiser.dll: orphanNestedVisibilityFixed=5
+[Dedup] BenSerialiser.dll: renamed=4
+[Repair] DMotion.Runtime.dll: objectUsagesFixed=141
+[Vis] DMotion.Runtime.dll: orphanNestedVisibilityFixed=48
+[Dedup] DMotion.Runtime.dll: renamed=62
+[Repair] Games2Gether.dll: objectUsagesFixed=2
+[Vis] Games2Gether.dll: orphanNestedVisibilityFixed=28
+[Dedup] Games2Gether.dll: renamed=19
+[Repair] Graphy.dll: objectUsagesFixed=1
+[Repair] I2.dll: objectUsagesFixed=7
+[Vis] I2.dll: orphanNestedVisibilityFixed=11
+[Dedup] I2.dll: renamed=6
+[Repair] Il2CppMono.Security.dll: objectUsagesFixed=14
+[HandleBase] Il2CppSystem.TypeIdentifiers+Display: Il2CppMono.RuntimePropertyHandle -> Il2CppSystem.Object
+[Repair] Il2Cppmscorlib.dll: objectUsagesFixed=394
+[Vis] Il2Cppmscorlib.dll: orphanNestedVisibilityFixed=51
+[HandleBase] Il2Cppmscorlib.dll: bogusHandleBasesFixed=1
+[Dedup] Il2Cppmscorlib.dll: renamed=44
+[Repair] Il2CppSystem.Core.dll: objectUsagesFixed=44
+[Vis] Il2CppSystem.Core.dll: orphanNestedVisibilityFixed=9
+[Dedup] Il2CppSystem.Core.dll: renamed=5
+[Repair] Il2CppSystem.Data.dll: objectUsagesFixed=1
+[Vis] Il2CppSystem.Data.dll: orphanNestedVisibilityFixed=4
+[Dedup] Il2CppSystem.Data.dll: renamed=2
+[SealedBase] Il2CppMono.Btls.MonoBtlsBio+BoringBioHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsKey+BoringKeyHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsPkcs12+BoringPkcs12Handle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsSsl+BoringSslHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsSslCtx+BoringSslCtxHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509+BoringX509Handle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509Chain+BoringX509ChainHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509Lookup+BoringX509LookupHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509LookupMono+BoringX509LookupMonoHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509Name+BoringX509NameHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509Store+BoringX509StoreHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509StoreCtx+BoringX509StoreCtxHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppMono.Btls.MonoBtlsX509VerifyParam+BoringX509VerifyParamHandle: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppSystem.ComponentModel.ArrayConverter+ArrayPropertyDescriptor: TPS.Game.GameLevelEditor.LevelEditorEvents.FinishedSettingPlotLayerVisibility -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppSystem.Net.TimerThread+TimerNode: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Il2CppSystem.Net.TimerThread+InfiniteTimer: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[Repair] Il2CppSystem.dll: objectUsagesFixed=219
+[Vis] Il2CppSystem.dll: orphanNestedVisibilityFixed=21
+[SealedBase] Il2CppSystem.dll: sealedOrPrimitiveBasesFixed=16
+[Dedup] Il2CppSystem.dll: renamed=26
+[Repair] Il2CppSystem.Drawing.dll: objectUsagesFixed=7
+[Repair] Il2CppSystem.Net.Http.dll: objectUsagesFixed=9
+[Vis] Il2CppSystem.Net.Http.dll: orphanNestedVisibilityFixed=5
+[Dedup] Il2CppSystem.Net.Http.dll: renamed=4
+[Repair] Il2CppSystem.Numerics.dll: objectUsagesFixed=6
+[Repair] Il2CppSystem.Reactive.dll: objectUsagesFixed=4
+[Vis] Il2CppSystem.Reactive.dll: orphanNestedVisibilityFixed=12
+[Dedup] Il2CppSystem.Reactive.dll: renamed=11
+[Repair] Il2CppSystem.Text.Encodings.Web.dll: objectUsagesFixed=12
+[Dedup] Il2CppSystem.Text.Encodings.Web.dll: renamed=1
+[Repair] Il2CppSystem.Text.Json.dll: objectUsagesFixed=39
+[Vis] Il2CppSystem.Text.Json.dll: orphanNestedVisibilityFixed=2
+[Dedup] Il2CppSystem.Text.Json.dll: renamed=1
+[Repair] Il2CppSystem.Xml.dll: objectUsagesFixed=206
+[Vis] Il2CppSystem.Xml.dll: orphanNestedVisibilityFixed=10
+[Dedup] Il2CppSystem.Xml.dll: renamed=4
+[Repair] Il2CppSystem.Xml.Linq.dll: objectUsagesFixed=14
+[Repair] Latios.Calligraphics.dll: objectUsagesFixed=117
+[Vis] Latios.Calligraphics.dll: orphanNestedVisibilityFixed=15
+[Dedup] Latios.Calligraphics.dll: renamed=4
+[SealedBase] Latios.UnmanagedExtraInterfacesDispatcher+DispatchNewScene`1: Il2CppSystem.TimeSpan -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Latios.UnmanagedExtraInterfacesDispatcher+DispatchShouldUpdate`1: Il2CppSystem.TimeSpan -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] Latios.UnmanagedExtraInterfacesDispatcher+DispatchNewSceneShouldUpdate`1: Il2CppSystem.TimeSpan -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[Repair] Latios.Core.dll: objectUsagesFixed=158
+[Vis] Latios.Core.dll: orphanNestedVisibilityFixed=28
+[SealedBase] Latios.Core.dll: sealedOrPrimitiveBasesFixed=3
+[Dedup] Latios.Core.dll: renamed=27
+[Repair] Latios.Kinemation.dll: objectUsagesFixed=579
+[Vis] Latios.Kinemation.dll: orphanNestedVisibilityFixed=192
+[Dedup] Latios.Kinemation.dll: renamed=205
+[Repair] Latios.LifeFX.dll: objectUsagesFixed=52
+[Vis] Latios.LifeFX.dll: orphanNestedVisibilityFixed=16
+[Dedup] Latios.LifeFX.dll: renamed=6
+[Repair] Latios.Myri.dll: objectUsagesFixed=100
+[Vis] Latios.Myri.dll: orphanNestedVisibilityFixed=9
+[Dedup] Latios.Myri.dll: renamed=5
+[Repair] Latios.Psyshock.dll: objectUsagesFixed=207
+[Vis] Latios.Psyshock.dll: orphanNestedVisibilityFixed=28
+[Dedup] Latios.Psyshock.dll: renamed=10
+[Repair] Latios.Transforms.dll: objectUsagesFixed=127
+[Vis] Latios.Transforms.dll: orphanNestedVisibilityFixed=35
+[Dedup] Latios.Transforms.dll: renamed=27
+[Repair] Latios.Unika.dll: objectUsagesFixed=64
+[Vis] Latios.Unika.dll: orphanNestedVisibilityFixed=15
+[Dedup] Latios.Unika.dll: renamed=15
+[Repair] LZ4net.dll: objectUsagesFixed=3
+[Repair] MessagePack.dll: objectUsagesFixed=15
+[Vis] MessagePack.dll: orphanNestedVisibilityFixed=5
+[Dedup] MessagePack.dll: renamed=3
+[Repair] MousePosition.dll: objectUsagesFixed=2
+[Repair] Newtonsoft.Json.dll: objectUsagesFixed=33
+[Vis] Newtonsoft.Json.dll: orphanNestedVisibilityFixed=15
+[Dedup] Newtonsoft.Json.dll: renamed=8
+[Repair] PlayFab.dll: objectUsagesFixed=583
+[Vis] PlayFab.dll: orphanNestedVisibilityFixed=2
+[Dedup] PlayFab.dll: renamed=42
+[Repair] PrimeTween.Runtime.dll: objectUsagesFixed=19
+[Vis] PrimeTween.Runtime.dll: orphanNestedVisibilityFixed=3
+[Dedup] PrimeTween.Runtime.dll: renamed=2
+[Repair] SharpConfig.dll: objectUsagesFixed=1
+[Repair] Sirenix.OdinInspector.Attributes.dll: objectUsagesFixed=4
+[Repair] SocketIOUnityAssembly.dll: objectUsagesFixed=30
+[Vis] SocketIOUnityAssembly.dll: orphanNestedVisibilityFixed=2
+[Repair] Steamworks.dll: objectUsagesFixed=28
+[Repair] StreamingToolsmith.TPMTwitch.dll: objectUsagesFixed=17
+[Vis] StreamingToolsmith.TPMTwitch.dll: orphanNestedVisibilityFixed=1
+[Repair] TPS.CharModule.dll: objectUsagesFixed=8
+[Repair] TPS.CloudShadows.dll: objectUsagesFixed=3
+[Repair] TPS.CoasterRenderer.dll: objectUsagesFixed=9
+[Vis] TPS.CoasterRenderer.dll: orphanNestedVisibilityFixed=1
+[Repair] TPS.Core.Animation.Authoring.dll: objectUsagesFixed=23
+[Vis] TPS.Core.Animation.Authoring.dll: orphanNestedVisibilityFixed=5
+[Dedup] TPS.Core.Animation.Authoring.dll: renamed=3
+[Repair] TPS.Core.DLC.dll: objectUsagesFixed=9
+[Vis] TPS.Core.DLC.dll: orphanNestedVisibilityFixed=1
+[Vis] TPS.Core.dll: orphanNestedVisibilityFixed=21
+[Dedup] TPS.Core.dll: renamed=13
+[Repair] TPS.Core.Online.dll: objectUsagesFixed=4
+[Repair] TPS.Core.Platform.dll: objectUsagesFixed=4
+[Repair] TPS.Core.Utils.dll: objectUsagesFixed=104
+[Vis] TPS.Core.Utils.dll: orphanNestedVisibilityFixed=15
+[Dedup] TPS.Core.Utils.dll: renamed=9
+[Repair] TPS.EarlyLitPass.dll: objectUsagesFixed=3
+[Repair] TPS.ExpeditionMap.dll: objectUsagesFixed=12
+[SealedBase] TPS.Game.ESExecuteTaskHasTourStarted: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskHasTrait: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteHubMenuState: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteHubMenuStateList: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskInteract: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskInterruptLeave: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskIsGameFeatureEnabled: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskIsInLocation: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskIsObjectiveComplete: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskIsOnExpedition: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskIsPlayerHoldingRotatableItem: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteIsRoomBuildCompletable: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskJoinActivity: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.ESExecuteTaskHideTutorialAdvisor: System.Byte -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TrackerInstance: __c__DisplayClass32_0_d3 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TrackerInstance_d2: TPS.Game.UI.ExpeditionEventUI+_AnimateOut_d__48 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TrackerInstance_d3: TPS.Game.UI.HubMenuUI+ShortcutMappings -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.UI.LocalizedDropDownOptionDataWithID: TPS.Game.UI.InboxMenu+InboxMessageFilterTypes -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.Subgoal_HaveThemeExhibits_PopupFailState+FailureInstance: TPS.Game.UI.HubMenuUI+ShortcutMappings -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.Subgoal_CaptureCriminals_PopupTracker+TrackerInstance: __c__DisplayClass13_0_d7 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TPS.Game.UI.HubMenuInputPrompt+PromptDataTwoBindings: SaveData_d229 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[Repair] TPS.Game.dll: objectUsagesFixed=3310
+[Vis] TPS.Game.dll: orphanNestedVisibilityFixed=2338
+[SealedBase] TPS.Game.dll: sealedOrPrimitiveBasesFixed=21
+[Dedup] TPS.Game.dll: renamed=2239
+[Repair] TPS.Game.Twitch.Core.dll: objectUsagesFixed=4
+[Repair] TPS.Game.Twitch.Impl.dll: objectUsagesFixed=5
+[Repair] TPS.Glow.dll: objectUsagesFixed=16
+[Repair] TPS.HBAO.dll: objectUsagesFixed=4
+[Vis] TPS.HBAO.dll: orphanNestedVisibilityFixed=2
+[Repair] TPS.LightPlacement.dll: objectUsagesFixed=22
+[Repair] TPS.MeshGen.dll: objectUsagesFixed=8
+[Repair] TPS.Native.dll: objectUsagesFixed=18
+[Repair] TPS.Octalux.dll: objectUsagesFixed=17
+[Vis] TPS.Octalux.dll: orphanNestedVisibilityFixed=1
+[Repair] TPS.ProceduralDrawList.dll: objectUsagesFixed=1
+[Repair] TPS.ProceduralDrawList.Rendering.dll: objectUsagesFixed=2
+[Repair] TPS.RenderPhoto.dll: objectUsagesFixed=4
+[Vis] TPS.RenderPhoto.dll: orphanNestedVisibilityFixed=1
+[Repair] TPS.ShaderDebug.dll: objectUsagesFixed=1
+[Repair] TPS.ShaderLib.dll: objectUsagesFixed=1
+[Vis] TPS.ShaderLib.dll: orphanNestedVisibilityFixed=2
+[Dedup] TPS.ShaderLib.dll: renamed=1
+[Repair] TPS.UnityConsole.dll: objectUsagesFixed=2
+[Repair] TPS.Water.dll: objectUsagesFixed=5
+[Repair] Unity.Addressables.dll: objectUsagesFixed=6
+[Vis] Unity.Addressables.dll: orphanNestedVisibilityFixed=4
+[Dedup] Unity.Addressables.dll: renamed=3
+[Repair] Unity.Audio.DSPGraph.dll: objectUsagesFixed=86
+[Vis] Unity.Audio.DSPGraph.dll: orphanNestedVisibilityFixed=1
+[Repair] Unity.Burst.dll: objectUsagesFixed=16
+[Vis] Unity.Burst.dll: orphanNestedVisibilityFixed=2
+[Dedup] Unity.Burst.dll: renamed=1
+[Repair] Unity.Collections.dll: objectUsagesFixed=277
+[Vis] Unity.Collections.dll: orphanNestedVisibilityFixed=35
+[Dedup] Unity.Collections.dll: renamed=25
+[Repair] Unity.Deformations.dll: objectUsagesFixed=3
+[Vis] Unity.Entities.dll: orphanNestedVisibilityFixed=20
+[Dedup] Unity.Entities.dll: renamed=14
+[Repair] Unity.Entities.Graphics.dll: objectUsagesFixed=256
+[Vis] Unity.Entities.Graphics.dll: orphanNestedVisibilityFixed=23
+[Dedup] Unity.Entities.Graphics.dll: renamed=19
+[Repair] Unity.Entities.Hybrid.dll: objectUsagesFixed=96
+[Repair] Unity.InputSystem.dll: objectUsagesFixed=272
+[Vis] Unity.InputSystem.dll: orphanNestedVisibilityFixed=44
+[Dedup] Unity.InputSystem.dll: renamed=29
+[Repair] Unity.Mathematics.dll: objectUsagesFixed=35
+[Repair] Unity.Mathematics.Extensions.dll: objectUsagesFixed=4
+[Repair] Unity.Media.Utilities.dll: objectUsagesFixed=13
+[Repair] Unity.MemoryProfiler.dll: objectUsagesFixed=3
+[Repair] Unity.Profiling.Core.dll: objectUsagesFixed=2
+[Repair] Unity.RenderPipeline.Universal.ShaderLibrary.dll: objectUsagesFixed=1
+[SealedBase] UnityEngine.Rendering.DebugUI+Container: TPS.Game.WaitForTicketUtils+ObjectNInternalSealed2 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+Foldout: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+Table: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+Button: TPS.Game.WaitForTicketUtils+ObjectNInternalSealed2 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+Value: TPS.Game.WaitForTicketUtils+ObjectNInternalSealed2 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+ProgressBarValue: TPS.Game.ESExecuteTaskWaitForTicketDesk+ESExecuteTaskGetTicketDeskWaitLocation_UpdateAll_Job -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+ValueTuple: TPS.Game.WaitForTicketUtils+ObjectNInternalSealed2 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+Field`1: TPS.Game.WaitForTicketUtils+ObjectNInternalSealed2 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+HistoryBoolField: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+HistoryEnumField: TPS.Game.ExhibitRemoteViewKey -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+MessageBox: TPS.Game.WaitForTicketUtils+ObjectNInternalSealed2 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+RuntimeDebugShadersMessageBox: TPS.Game.EDBTaskWaitForCutscene -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.RenderGraphModule.RenderGraphObjectPool+SharedObjectPool`1: TPS.Game.Save.SaveComponentClassUtils -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.Rendering.DebugUI+Table+Row: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[Repair] Unity.RenderPipelines.Core.Runtime.dll: objectUsagesFixed=110
+[Vis] Unity.RenderPipelines.Core.Runtime.dll: orphanNestedVisibilityFixed=39
+[SealedBase] Unity.RenderPipelines.Core.Runtime.dll: sealedOrPrimitiveBasesFixed=14
+[Dedup] Unity.RenderPipelines.Core.Runtime.dll: renamed=29
+[Repair] Unity.RenderPipelines.GPUDriven.Runtime.dll: objectUsagesFixed=136
+[Vis] Unity.RenderPipelines.GPUDriven.Runtime.dll: orphanNestedVisibilityFixed=12
+[Dedup] Unity.RenderPipelines.GPUDriven.Runtime.dll: renamed=4
+[Repair] Unity.RenderPipelines.Universal.Runtime.dll: objectUsagesFixed=109
+[Vis] Unity.RenderPipelines.Universal.Runtime.dll: orphanNestedVisibilityFixed=94
+[Dedup] Unity.RenderPipelines.Universal.Runtime.dll: renamed=69
+[Repair] Unity.ResourceManager.dll: objectUsagesFixed=36
+[Vis] Unity.ResourceManager.dll: orphanNestedVisibilityFixed=6
+[Dedup] Unity.ResourceManager.dll: renamed=4
+[Repair] Unity.Scenes.dll: objectUsagesFixed=61
+[Vis] Unity.Scenes.dll: orphanNestedVisibilityFixed=6
+[Dedup] Unity.Scenes.dll: renamed=3
+[Repair] Unity.Serialization.dll: objectUsagesFixed=44
+[Vis] Unity.Serialization.dll: orphanNestedVisibilityFixed=7
+[Dedup] Unity.Serialization.dll: renamed=4
+[Repair] Unity.Splines.dll: objectUsagesFixed=18
+[Vis] Unity.Splines.dll: orphanNestedVisibilityFixed=1
+[Repair] Unity.TextMeshPro.dll: objectUsagesFixed=50
+[Vis] Unity.TextMeshPro.dll: orphanNestedVisibilityFixed=4
+[Dedup] Unity.TextMeshPro.dll: renamed=3
+[Repair] Unity.Transforms.dll: objectUsagesFixed=16
+[Repair] Unity.Transforms.Hybrid.dll: objectUsagesFixed=14
+[Vis] Unity.Transforms.Hybrid.dll: orphanNestedVisibilityFixed=2
+[Dedup] Unity.Transforms.Hybrid.dll: renamed=1
+[Repair] UnityEngine.AccessibilityModule.dll: objectUsagesFixed=3
+[Repair] UnityEngine.AIModule.dll: objectUsagesFixed=11
+[Repair] UnityEngine.AndroidJNIModule.dll: objectUsagesFixed=2
+[Repair] UnityEngine.AnimationModule.dll: objectUsagesFixed=25
+[Repair] UnityEngine.AssetBundleModule.dll: objectUsagesFixed=1
+[Vis] UnityEngine.AssetBundleModule.dll: orphanNestedVisibilityFixed=1
+[Repair] UnityEngine.AudioModule.dll: objectUsagesFixed=5
+[Repair] UnityEngine.ContentLoadModule.dll: objectUsagesFixed=3
+[Repair] UnityEngine.CoreModule.dll: objectUsagesFixed=426
+[Vis] UnityEngine.CoreModule.dll: orphanNestedVisibilityFixed=38
+[Dedup] UnityEngine.CoreModule.dll: renamed=29
+[Repair] UnityEngine.DirectorModule.dll: objectUsagesFixed=1
+[Repair] UnityEngine.DSPGraphModule.dll: objectUsagesFixed=6
+[Repair] UnityEngine.GameCenterModule.dll: objectUsagesFixed=5
+[Repair] UnityEngine.HierarchyCoreModule.dll: objectUsagesFixed=22
+[Vis] UnityEngine.HierarchyCoreModule.dll: orphanNestedVisibilityFixed=9
+[Dedup] UnityEngine.HierarchyCoreModule.dll: renamed=7
+[Repair] UnityEngine.IMGUIModule.dll: objectUsagesFixed=5
+[Vis] UnityEngine.IMGUIModule.dll: orphanNestedVisibilityFixed=3
+[Dedup] UnityEngine.IMGUIModule.dll: renamed=2
+[Repair] UnityEngine.InputForUIModule.dll: objectUsagesFixed=20
+[Vis] UnityEngine.InputForUIModule.dll: orphanNestedVisibilityFixed=5
+[Dedup] UnityEngine.InputForUIModule.dll: renamed=3
+[Repair] UnityEngine.InputLegacyModule.dll: objectUsagesFixed=3
+[Repair] UnityEngine.InputModule.dll: objectUsagesFixed=2
+[Repair] UnityEngine.ParticleSystemModule.dll: objectUsagesFixed=46
+[Repair] UnityEngine.Physics2DModule.dll: objectUsagesFixed=4
+[Repair] UnityEngine.PhysicsModule.dll: objectUsagesFixed=7
+[Repair] UnityEngine.PropertiesModule.dll: objectUsagesFixed=25
+[Vis] UnityEngine.PropertiesModule.dll: orphanNestedVisibilityFixed=24
+[Dedup] UnityEngine.PropertiesModule.dll: renamed=16
+[Repair] UnityEngine.SpriteShapeModule.dll: objectUsagesFixed=1
+[Repair] UnityEngine.TerrainModule.dll: objectUsagesFixed=6
+[Repair] UnityEngine.TextCoreFontEngineModule.dll: objectUsagesFixed=15
+[Repair] UnityEngine.TextCoreTextEngineModule.dll: objectUsagesFixed=43
+[Vis] UnityEngine.TextCoreTextEngineModule.dll: orphanNestedVisibilityFixed=4
+[Dedup] UnityEngine.TextCoreTextEngineModule.dll: renamed=3
+[Repair] UnityEngine.TextRenderingModule.dll: objectUsagesFixed=5
+[Repair] UnityEngine.TilemapModule.dll: objectUsagesFixed=9
+[Repair] UnityEngine.UI.dll: objectUsagesFixed=37
+[Vis] UnityEngine.UI.dll: orphanNestedVisibilityFixed=6
+[Dedup] UnityEngine.UI.dll: renamed=3
+[SealedBase] UxmlTraits_d1: TPS.Game.ActionGiftShopScoreJobAdmins -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d2: TPS.Game.ActionGiftShopScoreJobAdmins -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d3: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d19: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d20: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d24: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d29: TPS.Game.ActionScoreFulfilNeedsCopyJob -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d32: TPS.Game.ActionScoreFulfilNeedsCopyJob -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d33: Enumerator -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d35: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d47: Enumerator -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.PointerCaptureEventBase`1: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ChangeEvent`1: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.IMEEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.InputEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.GeometryChangedEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.PointerEventBase`1: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.CustomStyleResolvedEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.TooltipEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.TransitionEventBase`1: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.IMGUIEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BackgroundColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BackgroundRepeatProperty: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BackgroundSizeProperty: TPS.Game.ECTour -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderBottomColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderBottomLeftRadiusProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderBottomRightRadiusProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderBottomWidthProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderLeftColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderLeftWidthProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderRightColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderRightWidthProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderTopColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderTopLeftRadiusProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderTopRightRadiusProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BorderTopWidthProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] BottomProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] ColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] FlexBasisProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] FlexGrowProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] FlexShrinkProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] FontSizeProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] HeightProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] LeftProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] LetterSpacingProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MarginBottomProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MarginLeftProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MarginRightProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MarginTopProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MaxHeightProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MaxWidthProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MinHeightProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] MinWidthProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] OpacityProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] PaddingBottomProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] PaddingLeftProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] PaddingRightProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] PaddingTopProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] RightProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] ScaleProperty: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] TopProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityBackgroundImageTintColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityFontDefinitionProperty: SaveData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityParagraphSpacingProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnitySliceScaleProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityTextOutlineColorProperty: TPS.Game.ITour+ECancelReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityTextOutlineWidthProperty: TPS.Game.Tour+EEndReason -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] WidthProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] WordSpacingProperty: __c -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UxmlTraits_d53: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.PropertyChangedEvent: System.Char -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.InlineStyleAccessPropertyBag+TextShadowProperty: TPS.Game.ECTourDonationScore -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.VisualElement+VisualElementScheduledItem`1: Il2CppSystem.Text.UTF32Encoding+UTF32Decoder -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+BackgroundRepeatProperty: TPS.Game.Twitch.TPM.TriggeredViewerStaffInfo -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+FlexBasisProperty: TPS.Game.SeasonalTheme.STDateRange -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+MaxHeightProperty: TPS.Game.SeasonalTheme.STDateRange -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+MaxWidthProperty: TPS.Game.SeasonalTheme.STDateRange -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+MinHeightProperty: TPS.Game.SeasonalTheme.STDateRange -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+MinWidthProperty: TPS.Game.SeasonalTheme.STDateRange -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+RotateProperty: TPS.Game.SeasonalTheme.STMonth -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+ScaleProperty: TPS.Game.SeasonalTheme.STDate -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+TransformOriginProperty: TPS.Game.SeasonalTheme.SeasonalThemeDefinition+MusicOverrideData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.ResolvedStyleAccessPropertyBag+TranslateProperty: TPS.Game.SeasonalTheme.SeasonalThemeDefinition+MusicOverrideData -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.StylePropertyAnimationSystem+Values`1: __c__DisplayClass42_0 -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.TextElement+UxmlTraits: TypeHandle -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.UQuery+SingleQueryMatcher: Il2CppSystem.AsyncCallback -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.UQuery+FirstQueryMatcher: Il2CppSystem.AssemblyLoadEventHandler -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.UQueryState`1+ListQueryMatcher`1: Il2CppSystem.AsyncCallback -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[SealedBase] UnityEngine.UIElements.UQueryState`1+ActionQueryMatcher: Il2CppSystem.AsyncCallback -> Il2CppInterop.Runtime.InteropTypes.Il2CppObjectBase
+[Repair] UnityEngine.UIElementsModule.dll: objectUsagesFixed=345
+[Vis] UnityEngine.UIElementsModule.dll: orphanNestedVisibilityFixed=364
+[SealedBase] UnityEngine.UIElementsModule.dll: sealedOrPrimitiveBasesFixed=89
+[Dedup] UnityEngine.UIElementsModule.dll: renamed=272
+[Repair] UnityEngine.UnityAnalyticsCommonModule.dll: objectUsagesFixed=7
+[Repair] UnityEngine.UnityWebRequestModule.dll: objectUsagesFixed=1
+[Vis] UnityEngine.UnityWebRequestModule.dll: orphanNestedVisibilityFixed=4
+[Dedup] UnityEngine.UnityWebRequestModule.dll: renamed=3
+[Repair] UnityEngine.VFXModule.dll: objectUsagesFixed=7
+[Repair] UnityEngine.VideoModule.dll: objectUsagesFixed=1
+[Repair] UnityEngine.XRModule.dll: objectUsagesFixed=12
+[Dedup] done filesOk=153 filesFail=0 filesTouched=125 renamed=3361 objectRepaired=9653 visFixed=3727 handleBasesFixed=1 sealedBasesFixed=143
